@@ -14,6 +14,7 @@
 		E4A722BF19E43B86008B38C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A722BE19E43B86008B38C6 /* Images.xcassets */; };
 		E4A722C219E43B86008B38C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A722C019E43B86008B38C6 /* LaunchScreen.xib */; };
 		E4A722CE19E43B86008B38C6 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A722CD19E43B86008B38C6 /* DragonFashionTests.m */; };
+		E4A722D919E4422B008B38C6 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A722D819E4422B008B38C6 /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E4A722C719E43B86008B38C6 /* DragonFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A722CC19E43B86008B38C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A722CD19E43B86008B38C6 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		E4A722D719E4422B008B38C6 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		E4A722D819E4422B008B38C6 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E4A722BE19E43B86008B38C6 /* Images.xcassets */,
 				E4A722C019E43B86008B38C6 /* LaunchScreen.xib */,
 				E4A722B119E43B86008B38C6 /* Supporting Files */,
+				E4A722D719E4422B008B38C6 /* Dragon.h */,
+				E4A722D819E4422B008B38C6 /* Dragon.m */,
 			);
 			path = DragonFashion;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				E4A722BA19E43B86008B38C6 /* ViewController.m in Sources */,
 				E4A722B719E43B86008B38C6 /* AppDelegate.m in Sources */,
+				E4A722D919E4422B008B38C6 /* Dragon.m in Sources */,
 				E4A722B419E43B86008B38C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
